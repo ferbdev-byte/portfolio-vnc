@@ -1,82 +1,76 @@
 # Personal Portfolio Website
 
-A modern and responsive portfolio website built with React.js, showcasing my projects, skills, and professional experience.
+A modern, high-performance, and responsive personal portfolio website showcasing my projects, skills, and professional experience. 
 
 ## 🚀 Features
 
-- Responsive design that works on desktop and mobile
-- Interactive UI components
-- Project showcase section
-- Skills & technologies section
-- Professional experience timeline
-- Contact form
-- Social media integration
-- Dark/Light mode (if implemented)
+- **Responsive Design**: Flawlessly adapts to desktop and mobile displays.
+- **Interactive UI**: Engaging user interfaces for sections: Home, About, Experience, Services, Skill, and Contact.
+- **Dark/Light Mode**: Smooth thematic toggling functionality.
+- **SEO Optimized**: Dynamic metadata and title management built exactly for search engine indexing.
+- **Ultra-Fast Performance**: Lightning-fast hot-reloading and highly optimized production builds via `Vite`.
 
-## 🛠️ Built With
+## 🛠️ Tech Stack & Tooling
 
-- React.js
-- CSS3
-- Create React App
-- Various React components and libraries
+- **Framework**: [React.js 18](https://reactjs.org/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Styling Engine**: [Tailwind CSS v4](https://tailwindcss.com/) & Vanilla CSS
+- **SEO**: `react-helmet-async`
+- **Slider/Carousel**: `swiper`
 
 ## 🏗️ Project Structure
 
-```
-src/
-├── components/         # React components
-│   ├── About/         # About section
-│   ├── Contact/       # Contact form
-│   ├── Experience/    # Work experience
-│   ├── Home/          # Home/Landing page
-│   ├── Project/       # Projects showcase
-│   ├── Services/      # Services section
-│   ├── Sidebar/       # Navigation sidebar
-│   └── Skill/         # Skills section
-├── assets/            # Images and SVG files
-└── data/              # JSON data files
+```text
+/
+├── public/            # Static assets
+├── src/
+│   ├── components/    # React functional components (Feature-based structure)
+│   ├── assets/        # Visual content (images, vector graphics, etc.)
+│   ├── data/          # JSON data sources driving the portfolio content dynamically
+│   ├── App.jsx        # Root Component orchestrating layouts, themes, and SEO Context
+│   └── index.jsx      # Application entry point
+├── index.html         # Main HTML Document
+└── vite.config.js     # Toolchain compiler configuration
 ```
 
 ## 🚦 Getting Started
 
-1. Clone the repository
+1. **Clone the repository**
 ```bash
 git clone [your-repo-link]
+cd portfolio-vnc
 ```
 
-2. Install dependencies
+2. **Install dependencies**
 ```bash
 npm install
 ```
 
-3. Start the development server
+3. **Start the development server** (Lightning-fast HMR enabled)
 ```bash
+npm run dev
+# or
 npm start
 ```
 
-4. Build for production
+4. **Build for production**
 ```bash
 npm run build
 ```
 
-## 📝 Usage
-
-Visit `http://localhost:3000` in your browser after starting the development server.
-
 ## 🚀 Deployment
 
-The project can be deployed to various platforms like:
-- GitHub Pages
-- Netlify
-- Vercel
-- Heroku
+This project generates a highly optimized static bundle (`dist/` directory) and is perfectly suited for zero-cost static hosting services:
+- **GitHub Pages** (Ready to use: run `npm run deploy`)
+- **Vercel**
+- **Netlify**
+- **AWS S3 / Cloudflare Pages**
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-[Your Name] - [Your Email]
-
-Project Link: [Your GitHub Repository URL]
+[Cuong Vo Ngoc]
+Project Link: [Your GitHub URL]
