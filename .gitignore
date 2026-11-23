@@ -1,3 +1,5 @@
 node_modules
 
 .codegpt
+# Cấu hình trợ lý AI cá nhân, không thuộc mã nguồn site
+.agent/

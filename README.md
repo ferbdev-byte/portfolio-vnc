@@ -1,5 +1,9 @@
 # Personal Portfolio Website
 
+[![Live](https://img.shields.io/badge/live-portfolio--vongoccuong.vercel.app-000?logo=vercel)](https://portfolio-vongoccuong.vercel.app/)
+![React](https://img.shields.io/badge/React-18-61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-v4-38BDF8)
+
 A modern, high-performance, and responsive personal portfolio website showcasing my projects, skills, and professional experience. 
 
 ## 🚀 Features
